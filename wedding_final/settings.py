@@ -35,6 +35,7 @@ DEBUG = os.environ.get('DJANGO_DEBUG', '') != 'False'
 ALLOWED_HOSTS = [
     'tranquil-bastion-81342.herokuapp.com',
     'maryam-and-dans-wedding.herokuapp.com',
+    'www.maryam-and-dans-wedding.co.uk',
 ]
 
 
