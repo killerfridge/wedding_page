@@ -1,0 +1,58 @@
+{% extends 'blog/base.html' %}
+{% load static %}
+{% block content %}
+
+
+    <div style="text-align: center; padding: 10px 10px;">
+        <h1 class="inner_heading">Accommodation</h1>
+        <h3 class="inner_heading"><a href="https://www.spahotel.co.uk/" class="font-green">The Spa Hotel</a></h3>
+        <img class="main-image-venue" src="{% static 'blog/images/hotel.jpg' %}"/>
+        <br/>
+        <br/>
+        <p>The reception will be held at the The Spa Hotel in Tunbridge Wells</p>
+        <p>If you are interested in staying in the hotel for the night of
+            the wedding, please call the hotel and reserve a room on 01892 520331.
+            A deposit of £10 will be required when reserving the rooms.
+        </p>
+        <h3 class="font-green inner_heading">Wedding Rates</h3>
+        <p>(All room rates include breakfast)</p>
+        <table>
+        <tr>
+            <tr>
+                <th>Room Type</th>
+                <th>1 Person</th>
+                <th>2 Persons</th>
+            </tr>
+            <tr>
+                <td>Solo Traveler</td>
+                <td>£109</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>Cosy Double</td>
+                <td>£119</td>
+                <td>£150</td>
+            </tr>
+            <tr>
+                <td>Deluxe Double</td>
+                <td>£129</td>
+                <td>£170</td>
+            </tr>
+            <tr>
+                <td>Spacious Double</td>
+                <td>£139</td>
+                <td>£190</td>
+            </tr>
+        </table>
+            <br/>
+            <p>There are also other hotels in the area if you wish to stay somewhere else</p>
+        <ul>
+            <li><a class="font-green" href="https://www.travelodge.co.uk/hotels/354/Tunbridge-Wells-hotel">Travelodge (0.4 Miles)</a></li>
+            <li><a class="font-green" href="http://www.themountedgcumbe.com/">The Mount Edgcumbe (0.5 Miles)</a></li>
+            <li><a class="font-green" href="https://thetunbridgewellshotel.com/">Tunbridge Wells Hotel (0.6 Miles)</a></li>
+            <li><a class="font-green" href="https://www.tunbridgewellsretreat.com/">Tunbridge Wells Retreat (0.7 Miles)</a></li>
+            <li><a class="font-green" href="https://www.onewarwickpark.co.uk/">One Warwick Park Hotel (0.8 Miles)</a></li>
+        </ul>
+
+    </div>
+{% endblock content %}
